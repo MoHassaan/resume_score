@@ -8,8 +8,5 @@ python-dotenv
 PyPDF2
 pdfminer.six
 tiktoken
-python-dotenv
-langchain
 chromadb
-openai  # if you're using OpenAI
-
+openai
