@@ -1,21 +1,11 @@
 streamlit
 python-dotenv
-
-# LangChain & Integrations
-langchain
+langchain==0.1.17
 langchain-pinecone
 langchain-google-genai
-
-# Vector stores
 pinecone-client
-
-# Google Generative AI
 google-generativeai
-
-# Document loaders support
 pypdf
 unstructured
-
-# Other dependencies
 pdfminer.six
 tiktoken
