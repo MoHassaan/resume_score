@@ -1,12 +1,22 @@
+# Core app
 streamlit
-langchain
-langchain-google-genai
-langchain-pinecone
-google-generativeai
-pinecone-client
 python-dotenv
+
+# LangChain & ecosystem
+langchain
+langchain-pinecone
+langchain-google-genai
+
+# Vector stores
+chromadb
+pinecone-client
+
+# Google Generative AI
+google-generativeai
+
+# PDF/Text loading
 PyPDF2
 pdfminer.six
+
+# Tokenization
 tiktoken
-chromadb
-openai
