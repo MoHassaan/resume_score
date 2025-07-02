@@ -5,6 +5,7 @@ from langchain_pinecone import PineconeVectorStore
 from langchain.prompts import PromptTemplate # Prompt template
 from langchain.text_splitter import RecursiveCharacterTextSplitter # Chunks
 from langchain.document_loaders import PyPDFLoader  # Load the text
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.chains import VectorDBQA,RetrievalQA, LLMChain # Chains and Retrival ans
 from langchain.retrievers.multi_query import MultiQueryRetriever # Multiple Answers
 from langchain_google_genai import ChatGoogleGenerativeAI # GenAI model to retrive
