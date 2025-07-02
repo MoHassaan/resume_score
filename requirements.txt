@@ -1,7 +1,7 @@
 streamlit
 python-dotenv
 
-# LangChain core and integrations
+# LangChain core + integrations
 langchain
 langchain-pinecone
 langchain-google-genai
@@ -12,10 +12,10 @@ pinecone-client
 # Google Generative AI
 google-generativeai
 
-# LangChain loaders and dependencies
-unstructured
+# Required for PyPDFLoader and TextLoader
 pypdf
+unstructured
 
-# PDF + tokenizer
+# Tokenizer and PDF parsing
 pdfminer.six
 tiktoken
