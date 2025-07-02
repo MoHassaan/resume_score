@@ -3,7 +3,6 @@ import os
 from dotenv import load_dotenv
 from langchain_pinecone import PineconeVectorStore
 from langchain.prompts import PromptTemplate # Prompt template
-from langchain.vectorstores import Chroma,Pinecone   # Store the vectors
 from langchain.text_splitter import RecursiveCharacterTextSplitter # Chunks
 from langchain.document_loaders import TextLoader,PyPDFLoader  # Load the text
 from langchain.chains import VectorDBQA,RetrievalQA, LLMChain # Chains and Retrival ans
