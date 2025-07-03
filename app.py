@@ -37,7 +37,7 @@ if uploaded_file:
     # Load and split PDF
     loader = PyPDFLoader("current_resume.pdf")
     documents = loader.load()
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=100, chunk_overlap=10)
     texts = text_splitter.split_documents(documents)
 
     # Gemini embeddings
