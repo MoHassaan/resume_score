@@ -15,8 +15,8 @@ from google.generativeai.types.safety_types import HarmBlockThreshold, HarmCateg
 
 # load keys
 load_dotenv()
-gemini_key = os.getenv("GEMINI_API_KEY")
-pinecone_key = os.getenv("PINECONE_API_KEY")
+gemini_key = st.secrets["GEMINI_API_KEY"]
+pinecone_key = st.secrets["PINECONE_API_KEY"]
 index_name = "langchain-rag-geminii"
 
 # Set up Streamlit page
