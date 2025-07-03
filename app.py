@@ -44,7 +44,7 @@ if uploaded_file:
     embeddings = GoogleGenerativeAIEmbeddings(
         model='models/embedding-001',
         google_api_key=gemini_key,
-        task_type="retrieval_query"
+        task_type="retrieval_document"
     )
 
 
